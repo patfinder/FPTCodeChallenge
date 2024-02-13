@@ -43,7 +43,7 @@ Can I fly my kite? No (WindSpeed: 6)
 - The main program will configure the services in the form of Depedency Injection.
 	DI will help in testing the program.
 
-- The program also use config file (appsettings.json) which store app config (API Url in this case).
+- The program also use config file (appsettings.json) which store settings for Weather API Url and Log settings.
 - The API key is a kind of secret, so it is stored in environment (or keyvault if we use cloud) for security.
 
 DTO folder: contains DTO objects to transfer Weather Service and Advice Service result.
