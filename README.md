@@ -33,22 +33,22 @@ Can I fly my kite? No (WindSpeed: 6)
 
 ## Code Explanation
 
-- There are 2 main service in the project
+- There are 2 main services in the project
   - WeatherService to retrieve weather data
   - AdviceService get weather information for specified location and return advices for 3 questions
-		Should I go outside?
-		Should I wear sunscreen?
-		Can I fly my kite?
+	  - Should I go outside?
+	  - Should I wear sunscreen?
+	  - Can I fly my kite?
 
 - The main program will configure the services in the form of Depedency Injection.
 	DI will help in testing the program.
 
 - The program also use config file (appsettings.json) which store settings for Weather API Url and Log settings.
-- The API key is a kind of secret, so it is stored in environment (or keyvault if we use cloud) for security.
+- The API key is a kind of secret, so it is stored in environment (or keyvault if we use cloud) for security reason.
 
-DTO folder: contains DTO objects to transfer Weather Service and Advice Service result.
-Interface folder: contains the interfaces for Weather and Advice Service
-Service folder: contains the implementation for Weather and Advice Service
+- DTO folder: contains DTO objects to transfer Weather Service and Advice Service result.
+- Interface folder: contains the interfaces for Weather and Advice Service
+- Service folder: contains the implementation for Weather and Advice Service
 
-Data\current.json
+- Data\current.json
 	This file store the Weather API output for reference.
