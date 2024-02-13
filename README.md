@@ -4,13 +4,14 @@
 
 To run this program, follow below steps:
 
-1. Open a CMD window (Open Run, enter "CMD", Enter)
-2. Set environment variable by running below command:
-	SET WEATHER_API_KEY=5466ed30a8ffcf523b01419670994ce0
+1. Open the solution and compile.
+2. Open a CMD window (Open Run, enter "CMD", Enter)
+3. Set environment variable by running below command:
 
-	Above command set the API key for http://api.weatherstack.com
+> SET WEATHER_API_KEY=5466ed30a8ffcf523b01419670994ce0
 
-3. Open the solution and compile.
+Above command set the API key for http://api.weatherstack.com
+
 4. Go to compile output folder of FPTCodeChallenge project, which similar to below:
 	FPTCodeChallenge\FPTCodeChallenge\bin\Debug\net8.0
 
@@ -27,8 +28,10 @@ Can I fly my kite? No (WindSpeed: 6)
 
 
 7. To run program directly from Visual Studio, you can set WEATHER_API_KEY by going to
-	FPTCodeChallenge project setting > Debug, click on "Open debug launch profile UI"
-	In the opened window, scroll to "Environment Variables" and enter name/value for WEATHER_API_KEY.
+> 1. FPTCodeChallenge project setting > Debug  
+> 2. On right panel, click on "Open debug launch profile UI"  
+> 3. In the opened window, scroll to "Environment Variables" section
+> 4. Enter name/value for WEATHER_API_KEY.
 
 
 ## Code Explanation
