@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FPTCodeChallenge": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "WEATHER_API_KEY": "5466ed30a8ffcf523b01419670994ce0"
+      }
+    }
+  }
+}
