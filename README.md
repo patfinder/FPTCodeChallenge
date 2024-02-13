@@ -18,11 +18,11 @@ To run this program, follow below steps:
 6. The program will show the answers similar to below:
 
 
-Please enter your zip code: l5g
-========================================
-Should I go outside? Yes (Precip: 0)
-Should I wear sunscreen? No (UvIndex: 1)
-Can I fly my kite? No (WindSpeed: 6)
+> Please enter your zip code: l5g  
+========================================  
+Should I go outside? Yes (Precip: 0)  
+Should I wear sunscreen? No (UvIndex: 1)  
+Can I fly my kite? No (WindSpeed: 6)  
 ========================================
 
 
